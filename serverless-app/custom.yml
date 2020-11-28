@@ -23,8 +23,8 @@ cors:
   pro: false
 resources:
   userPool:
-    local: 'us-east-1_okkcmFnNz'
-    dev: 'us-east-1_okkcmFnNz'
+    local: 'us-east-1_KIbJt84gb'
+    dev: 'us-east-1_KIbJt84gb'
     pre:
       "Fn::ImportValue": ${self:custom.varPrefix}-cognito-user-pool
     pro:
